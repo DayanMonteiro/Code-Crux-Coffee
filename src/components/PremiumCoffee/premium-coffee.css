@@ -1,0 +1,93 @@
+.PremiumCoffee {
+  background-color: #fff;
+  height: 600px;
+
+  .container-premium-coffee {
+    display: flex;
+    flex-direction: row;
+
+    .container-image {
+      box-shadow: 4px -6px 6px rgba(0, 0, 0, 0.4);
+
+      .image-premium-coffee {
+        object-fit: fill;
+        width: 405px;
+        height: 600px;
+      }
+    }
+
+    .text-content-section {
+      width: 75%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      .title-section {
+        width: 100;
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 3rem;
+      }
+
+      .premium-icon {
+        margin: 2rem 5rem;
+        display: flex;
+        flex-direction: row;
+
+        .specials {
+          width: 350px;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          justify-content: center;
+          gap: 10px;
+
+          .content-specials {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+
+            .circle {
+              background-color: #c4c4c4;
+              width: 35px;
+              height: 35px;
+              border-radius: 50%;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+
+              .type-of-coffee {
+                font-size: 1.5rem;
+              }
+            }
+          }
+        }
+
+        .tea-lovers {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+        }
+      }
+
+      .special-lines {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 0 3rem;
+      }
+    }
+
+    .container-image-ultra-special {
+      .image-premium-coffee {
+        height: 600px;
+        width: 405px;
+        box-shadow: -4px 0px 6px rgba(0, 0, 0, 0.2);
+      }
+    }
+  }
+}

@@ -1,0 +1,78 @@
+.BestSellingCoffes {
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  .container-best-selling-coffees {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .heading-section {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1.5rem;
+      .section-title {
+        color: #fff;
+        font-size: 2rem;
+      }
+    }
+
+    .container-cards {
+      display: flex;
+      flex-direction: row;
+      gap: 2rem;
+      margin-bottom: 1rem;
+
+      .card {
+        width: 360px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        border: 2px solid #949393;
+        border-radius: 8px;
+        box-shadow: 0px 4px 6px rgba(218, 215, 215, 0.6);
+
+        .container-image {
+          width: 230px;
+          height: 230px;
+          border-radius: 8px;
+
+          .image {
+            width: 230px;
+            height: 230px;
+            border-radius: 8px;
+            object-fit: fill;
+          }
+        }
+
+        .text-section {
+          margin-top: 1rem;
+          color: #fff;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          text-align: justify;
+          text-align-last: center;
+
+          .coffee-name {
+            font-size: 1.7rem;
+            margin-top: 0.7rem;
+          }
+          .description {
+            margin-top: 0.7rem;
+            line-height: 18px;
+          }
+        }
+      }
+    }
+  }
+}

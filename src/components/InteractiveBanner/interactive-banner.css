@@ -1,0 +1,77 @@
+.InteractiveBanner {
+  background-color: #3d2b1f;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .interactive-banner-container {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 2rem;
+    width: 100%;
+    color: #fff;
+
+    .text-content-section {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      .container-button {
+        margin-top: 2rem;
+      }
+
+      .text-content-section h1 {
+        font-size: 2.8rem;
+      }
+
+      .text-content-section h2 {
+        font-size: 1.9rem;
+      }
+
+      .text-content-section p {
+        font-size: 1.3rem;
+      }
+    }
+
+    .image-section {
+      width: 50%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      margin: 0;
+      padding: 0;
+
+      .code {
+        display: flex;
+        align-items: flex-start;
+        height: 100%;
+      }
+
+      .image-coffee {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .coffee {
+        display: flex;
+        align-items: flex-end;
+        height: 100%;
+      }
+    }
+  }
+
+  .primary-button {
+    font-size: 1.2rem;
+    width: auto;
+    padding: 5px 10px;
+    border-radius: 7px;
+  }
+  .primary-button:hover {
+    opacity: 0.7;
+  }
+}

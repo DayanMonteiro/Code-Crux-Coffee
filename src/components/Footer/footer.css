@@ -1,0 +1,92 @@
+.Footer {
+  width: 100%;
+  background-image: url("../../assets//website/coffee-footer.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    padding: 5rem 10rem;
+    gap: 3rem;
+
+    .company-detail {
+      width: 58%;
+
+      .company {
+        color: #fff;
+        text-decoration: none;
+        font-size: 2rem;
+      }
+
+      .company-description {
+        margin: 1rem 0 2rem 0;
+        color: #fff;
+        font-size: 1rem;
+      }
+
+      .youtube-channel {
+        margin-top: 1rem;
+        color: #fff;
+        text-decoration: none;
+        font-size: 1.2rem;
+        background-color: #e61717;
+        padding: 15px;
+        border-radius: 8px;
+      }
+    }
+
+    .footer-links {
+      width: 42%;
+      display: flex;
+      flex-wrap: row;
+      justify-content: flex-start;
+      gap: 3rem;
+
+      .important-links {
+        .title-important-links {
+          color: #fff;
+          text-decoration: none;
+          font-size: 2rem;
+        }
+
+        .footer-links {
+          margin-top: 1rem;
+          list-style-type: none;
+          text-decoration: none;
+          font-size: 1rem;
+          display: flex;
+          flex-direction: column;
+          gap: 5px;
+
+          .link-name {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.5rem;
+          }
+        }
+      }
+
+      .address {
+        color: #fff;
+
+        .title-address {
+          text-decoration: none;
+          font-size: 2rem;
+        }
+
+        .social-links {
+          display: flex;
+          gap: 1rem;
+          margin: 0.7rem;
+
+          .social-icons {
+            width: 30px;
+            height: 30px;
+          }
+        }
+      }
+    }
+  }
+}
